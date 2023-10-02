@@ -1,0 +1,118 @@
+body {
+  justify-content: center;
+  align-items: center;
+  font-family: Josefin Sans, sans-serif;
+  display: flex;
+}
+
+.container {
+  background: #fff;
+  flex-direction: column;
+  max-width: 350px;
+  display: flex;
+}
+
+.input-group {
+  background-color: #fff;
+  border: 1px solid orange;
+  border-radius: 5px;
+  align-items: center;
+  padding: 2px;
+  display: inline-flex;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 90%;
+  height: 30px;
+  margin: 0 5px;
+  font-size: 12px;
+}
+
+.input-group button {
+  color: #fff;
+  background-color: orange;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  height: 30px;
+}
+
+.input-group img {
+  width: 30px;
+}
+
+.card {
+  background-color: #f7d79b;
+  border: 1px solid orange;
+  border-radius: 5px;
+  margin: 1rem 0;
+  padding: 0 10px;
+}
+
+.userimage {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.users-name {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.followers-following {
+  text-align: center;
+  background: #beb9b9;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0 8px;
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+}
+
+.followers-following span {
+  display: block;
+}
+
+.grid {
+  display: grid;
+}
+
+.details {
+  justify-content: space-around;
+  display: flex;
+}
+
+.details img {
+  text-align: center;
+  height: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (width >= 478px) {
+  .grid-1x2 {
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 2rem;
+  }
+
+  .container {
+    max-width: 700px;
+  }
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Usersearch</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-group">
+        <img src="./images/github.svg" alt="github-logo" />
+        <input type="text" class="input" placeholder="Username..." />
+        <button class="btn">Search</button>
+      </div>
+      <div class="card grid grid-1x2 hide">
+        <!-- <img src="./images/github.svg" alt="" class="userimage" />
+        <div class="data">
+          <p class="users-name"></p>
+          <a class="username" href="#"></a>
+          <div class="followers-following">
+            <p>Followers<span id="followerCount"></span></p>
+            <p>Following<span id="followingCount"></span></p>
+            <p>Repos<span id="reposCount"></span></p>
+          </div>
+          <div class="details">
+            <div class="single">
+              <img src="./images/x-twitter.svg" alt="" />
+              <a class="twitter" href="#">Twitter</a>
+            </div>
+            <div class="single">
+              <img src="./images/location.svg" alt="" />
+              <a class="location" href="#">location</a>
+            </div>
+          </div>
+          <p class="active-from">
+            Active From: <span class="date">28 June 2022</span>
+          </p>
+        </div> -->
+      </div>
+    </div>
+
+    <template data-card>
+      <img src="./images/github.svg" alt="" class="userimage" />
+      <div class="data">
+        <p class="users-name"></p>
+        <a class="username" href="#"></a>
+        <div class="followers-following">
+          <p>Followers<span id="followerCount"></span></p>
+          <p>Following<span id="followingCount"></span></p>
+          <p>Repos<span id="reposCount"></span></p>
+        </div>
+        <div class="details">
+          <div class="single">
+            <img src="./images/x-twitter.svg" alt="" />
+            <a class="twitter" href="#">Twitter</a>
+          </div>
+          <div class="single">
+            <img src="./images/location.svg" alt="" />
+            <a class="location" href="#">location</a>
+          </div>
+        </div>
+        <p class="active-from">
+          Active From: <span class="date">28 June 2022</span>
+        </p>
+      </div>
+    </template>
+  </body>
+</html>
